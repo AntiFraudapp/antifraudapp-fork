@@ -1,0 +1,22 @@
+{
+  "name": "AntiFraudApp",
+  "description": "Plataforma Global de Prevenção de Fraudes Digitais",
+  "version": "1.0.0",
+  "author": "HTenterprise",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "typecheck": "tsc --noEmit",
+    "preview": "vite preview"
+  },
+  "supabase": {
+    "projectId": "0ec90b57d6e95fcbda19832f",
+    "functions": [
+      {
+        "name": "fraud-detection",
+        "verify_jwt": true
+      }
+    ]
+  }
+}

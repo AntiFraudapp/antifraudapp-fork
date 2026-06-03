@@ -1,0 +1,35 @@
+{
+  "name": "antifraudapp",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "typecheck": "tsc --noEmit",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "@vitejs/plugin-react": "^4.3.1",
+    "typescript": "^5.8.3",
+    "vite": "^5.4.1"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.43.0",
+    "@tanstack/react-query": "^5.24.0",
+    "@tanstack/react-router": "^1.131.8",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "zustand": "^5.0.5",
+    "lucide-react": "^0.511.0",
+    "recharts": "^2.15.1",
+    "date-fns": "^3.6.0",
+    "react-hook-form": "^7.53.0",
+    "sonner": "^1.7.4",
+    "clsx": "^2.1.1",
+    "class-variance-authority": "^0.7.0",
+    "tailwind-merge": "^2.5.2"
+  }
+}
