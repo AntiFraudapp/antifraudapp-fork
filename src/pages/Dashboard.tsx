@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { supabase } from '../lib/supabase';
 import { analyzeFraud, submitReport } from '../lib/fraud-api';
-import { AlertCircle, CheckCircle, Shield, LogOut } from 'lucide-react';
+import { CircleAlert as AlertCircle, CircleCheck as CheckCircle, Shield, LogOut } from 'lucide-react';
 
 export default function Dashboard() {
   const [targetType, setTargetType] = useState<'email' | 'phone' | 'link' | 'crypto'>('email');
